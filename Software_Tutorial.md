@@ -17,8 +17,9 @@
 1. 打开浏览器，访问 [Anaconda 官网](https://www.anaconda.com/)。
 2. 在页面中选择适合您操作系统的安装包（Windows/Mac/Linux）。
 3. 点击下载按钮，等待安装包下载完成。
-4. [清华云盘链接](https://cloud.tsinghua.edu.cn/d/497796b840244f7eb211/)里也给大家准备了Anaconda安装包（在安装包文件里）。
-5. 不清楚的请参考：[Anaconda 安装详细教程](https://blog.csdn.net/tqlisno1/article/details/108908775)。
+4. [清华云盘链接](https://cloud.tsinghua.edu.cn/d/a9ced3e269ba4c5fb5ba/)里也给大家准备了Anaconda安装包（在安装包文件里）。
+> 清华云盘有两个链接：1.[安装包文件云盘链接](https://cloud.tsinghua.edu.cn/d/a9ced3e269ba4c5fb5ba/);2.[Arduino支持文件](https://cloud.tsinghua.edu.cn/d/f11d4f5986824f3a8042/)，包含Arduino的支持包。
+6. 不清楚的请参考：[Anaconda 安装详细教程](https://blog.csdn.net/tqlisno1/article/details/108908775)。
 
 ### 1.2 配置环境变量（最好检查一下）
 * 如果安装时没有将 Anaconda 添加到环境变量，需要手动设置。
@@ -52,7 +53,7 @@
   * [VS Code 官网](https://code.visualstudio.com/)
   * [PyCharm 官网](https://www.jetbrains.com/pycharm/)
 * 安装后，建议在扩展市场中搜索并安装 “Python” 插件，以获得代码高亮、智能补全和调试功能。
-* [清华云盘链接](https://cloud.tsinghua.edu.cn/d/497796b840244f7eb211/)里也给大家准备了VS Code 安装包（安装包文件里）。
+* [清华云盘链接](https://cloud.tsinghua.edu.cn/d/a9ced3e269ba4c5fb5ba/)里也给大家准备了VS Code 安装包（安装包文件里）。
 
 ### 1.5 VS Code 拓展库
 安装拓展库
@@ -71,7 +72,7 @@
 1. 打开浏览器，访问 [Arduino 官网](https://www.arduino.cc/en/software)。
 2. 在页面中选择适合你操作系统的安装包（Windows/Mac/Linux）。
 3. 点击下载按钮，等待安装包下载完成。
-4. [清华云盘链接](https://cloud.tsinghua.edu.cn/d/497796b840244f7eb211/)里也给大家准备了Arduino IDE安装包（安装包文件里）。
+4. [清华云盘链接](https://cloud.tsinghua.edu.cn/d/a9ced3e269ba4c5fb5ba/)里也给大家准备了Arduino IDE安装包（安装包文件里）。
 
 ### 2.2 安装 Arduino IDE
 
@@ -116,7 +117,7 @@
 
 2. **下载 ESP32 开发板支持文件：**
 
-   * 从清华云盘获取预先下载好的 ESP32 离线包 （`esp32.zip`）（[清华云盘链接](https://cloud.tsinghua.edu.cn/d/497796b840244f7eb211/)）。
+   * 从清华云盘获取预先下载好的 ESP32 离线包 （`esp32.zip`）（[清华云盘链接](https://cloud.tsinghua.edu.cn/d/f11d4f5986824f3a8042/)）。
    * 其他需要下载的文件有：`CH341SER.EXE`，`ArduinoJson-7.4.1.zip` 和 `EspSoftwareSerial-8.1.0.zip`
    ![alt text](figures/arduino2.png)
    * esp32的版本是3.0.7。
@@ -193,8 +194,9 @@
 
 ### 2.5 常见问题与解决办法
 
-* **找不到开发板端口**：请检查 USB 线是否支持数据传输，并确认已安装相关驱动 `CH341SER`（[清华云盘链接](https://cloud.tsinghua.edu.cn/d/497796b840244f7eb211/)）。
+* **找不到开发板端口**：请检查 USB 线是否支持数据传输，并确认已安装相关驱动 `CH341SER`（[清华云盘链接](https://cloud.tsinghua.edu.cn/d/f11d4f5986824f3a8042/)）。
 * **上传失败**：可以尝试更换 USB 端口、重启 Arduino IDE，或重新选择开发板型号和端口。
+
 
 
 
